@@ -2,8 +2,6 @@ import React from 'react'
 import "./Hero.scss"
 import {animate, motion} from "framer-motion"
 
-
-
 const sliderVariants = {
     initial: {
         x:0, 

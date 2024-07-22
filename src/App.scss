@@ -1,9 +1,11 @@
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 *{
+    
     padding: 0;
     box-sizing: border-box;
     margin: 0;
