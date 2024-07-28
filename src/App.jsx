@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.scss'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import About from './components/About'
+import About from './components/About/About'
+import Sidebar from './components/SideBar/Sidebar'
 
 
 
@@ -11,11 +12,14 @@ function App() {
 
   return (
     <div>
+      <Sidebar></Sidebar>
       <section id='HomePage'>
         <Navbar></Navbar>
         <Hero></Hero>
       </section>
-      <section id='About'>About</section>
+      <section id='About'>
+          <About></About>
+      </section>
       <section id='Resume'>Resume</section>
       <section id='Projects'>Projects</section>
       <section id='Contact'>Contact</section>

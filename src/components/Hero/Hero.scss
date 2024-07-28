@@ -1,6 +1,6 @@
 .hero{
     height: calc(100vh - 100px);
-    background: linear-gradient(180deg, #0c0c1d, #ca50ce);
+    background: linear-gradient(180deg, #0c0c1d, #620ea7);
 
     .wrapper{
         max-width: 1366px;
@@ -45,7 +45,7 @@
     .slidingTextContainer{
         position: absolute;
         font-size: 50vh;
-        bottom: -120px;
+        bottom: -10px;
         white-space: nowrap;
         color: #9b97be2f;
         width: 50%;
