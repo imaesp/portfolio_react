@@ -11,7 +11,6 @@ const Navbar = () => {
           <a href="#"><img src="src\assets\facebook.png" alt="" /></a>
           <a href="#"><img src="src\assets\instagram.png" alt="" /></a>
           <a href="#"><img src="src\assets\github.svg" alt="" /></a>
-          <a href="#"><img src="src\assets\LinkedIn_logo_initials.png.webp" alt="" /></a>
         </div>
       </div>
     </div>
