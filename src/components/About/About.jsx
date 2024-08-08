@@ -46,7 +46,7 @@ function About() {
         </motion.div>
       </div>
       <div className="imageContainer">
-        <img src="assets\headshot.jpg" alt="" />
+        <img src="public\headshot.jpg" alt="" />
       </div>
     </div>
   );
