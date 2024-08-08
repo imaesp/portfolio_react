@@ -19,8 +19,8 @@
   
         h2 {
           font-size: 30px;
-          color: rebeccapurple;
-          letter-spacing: 10px;
+          color: rgb(174, 140, 209);
+          letter-spacing: 5px;
         }
   
         h1 {
@@ -40,14 +40,17 @@
           width: 100%;
           height: 100%;
         }
+        z-index: 2;
     }
-    .stars{
-      background-image: url("src\assets\stars.png");
-      background-size: cover;
-      background-position: bottom;
-      width: 100%;
-      height: 100%;
+    .slidingTextContainer{
       position: absolute;
-      z-index: 2;
-    }
+      font-size: 40vh;
+      bottom: -10px;
+      white-space: nowrap;
+      color: #e1e0eb2f;
+      width: 50%;
+      font-weight: bold;
+      pointer-events: none;
+      z-index: 1;
+  }
   }
