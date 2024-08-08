@@ -48,7 +48,6 @@ function About() {
       <div className="imageContainer">
         <img src="src\assets\headshot.jpg" alt="" />
       </div>
-      <div className='stars'></div>
     </div>
   );
 }
