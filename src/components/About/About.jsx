@@ -25,14 +25,14 @@ const textVariants = {
   },
 };
 
-
 function About() {
+
   return (
     <div className="about">
       <div className="wrapper">
         <motion.div
           className="textContainer"
-          variants={textVariants}
+          variants={textVariants} 
           initial="initial"
           animate="animate"
         >
@@ -46,8 +46,9 @@ function About() {
         </motion.div>
       </div>
       <div className="imageContainer">
-        <img src="src\assets\headshot.png" alt="" />
+        <img src="src\assets\headshot.jpg" alt="" />
       </div>
+      <div className='stars'></div>
     </div>
   );
 }

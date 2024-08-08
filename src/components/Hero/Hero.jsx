@@ -49,6 +49,7 @@ function Hero() {
                 <motion.div className='buttons' variants={textVariants}>
                     <motion.button variants={textVariants}>See My Work</motion.button>
                     <motion.button variants={textVariants}>Contact Me</motion.button>
+                    <motion.a href='src\assets\resume.pdf' download class='btn btn--download' className='resume-btn'>My resume</motion.a>
                 </motion.div>
                 <motion.img variants={textVariants} animate="scrollButton" src="src\assets\scroll.png" alt="" />
             </motion.div>

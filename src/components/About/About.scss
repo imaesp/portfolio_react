@@ -1,14 +1,14 @@
 .about {
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(180deg, #620ea7, #0c0c1d);
+    background: linear-gradient(180deg, #6b00b3, #735CDD, #B3C2F2);
     position: relative;
   
     .wrapper {
       max-width: 1366px;
       height: 100%;
       margin: auto;
-  
+      
       .textContainer {
         width: 50%;
         height: 100%;
@@ -29,15 +29,25 @@
       }
     }
     .imageContainer {
-        height: 100%;
+        height: 70%;
         position: absolute;
+        margin-right: 200px;
+        margin-top: 150px;
         top: 0;
         right: 0;
-    
+        
         img{
           width: 100%;
           height: 100%;
-          object-fit: cover;
         }
+    }
+    .stars{
+      background-image: url("src\assets\stars.png");
+      background-size: cover;
+      background-position: bottom;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 2;
     }
   }

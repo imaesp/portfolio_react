@@ -1,0 +1,11 @@
+.projects{
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, #6b00b3, #735CDD, #B3C2F2);
+    h1{
+        font-size: 50px;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    } 
+}
