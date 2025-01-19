@@ -2,55 +2,34 @@
     height: 100vh;
     overflow: hidden;
     background: #240339;
-    position: relative;
-  
-    .wrapper {
-      max-width: 1366px;
-      height: 100%;
-      margin: auto;
-      
-      .textContainer {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 40px;
-  
-        h2 {
-          font-size: 30px;
-          color: rgb(174, 140, 209);
-          letter-spacing: 5px;
-        }
-  
-        h1 {
-          font-size: 30px;
-        }
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .imageContainer{
+      align-content: center;
+      z-index: 2;
+      transition: transform 0.3s ease, color 0.3s ease;
+      img{
+        height: 15rem;
+        width: auto;
+        border-radius: 150px;
+      }
+      &:hover{
+        transform: scale(1.1);
       }
     }
-    .imageContainer {
-        height: 70%;
-        position: absolute;
-        margin-right: 200px;
-        margin-top: 150px;
-        top: 0;
-        right: 0;
-        
-        img{
-          width: 100%;
-          height: 100%;
-        }
-        z-index: 2;
-    }
-    .slidingTextContainer{
+    .textContainer{
+      margin-top: 8rem;
+      font-size: 8rem;
+      text-align: center;
       position: absolute;
-      font-size: 40vh;
-      bottom: -10px;
-      white-space: nowrap;
-      color: #e1e0eb2f;
-      width: 50%;
-      font-weight: bold;
-      pointer-events: none;
-      z-index: 1;
-  }
-  }
+
+      .story-text{
+          font-size: 0.5rem;
+          text-align: center;     
+      }
+    }
+
+    
+}

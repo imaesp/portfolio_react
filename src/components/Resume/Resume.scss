@@ -2,12 +2,20 @@
     height: 100vh;
     overflow: hidden;
     background: #240339;
-    h1{
-        font-size: 50px;
-        display: grid;
-        place-items: center;
-        height: 100vh;
-    } 
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+    .resume-image-container{
+        align-content: center;
+        img{
+            height: 35rem;
+            width: auto;
+        }
+    }
+    .bullet-list{
+        align-content: center;
+    }
 }
 
 

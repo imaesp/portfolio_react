@@ -1,0 +1,28 @@
+.bullet-point{
+    width: 30rem;
+    padding: 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    &.even {
+        margin-left: -3rem;
+        .title-text{
+            text-align: start;
+        }
+        .subtitle-text{
+            text-align: start;
+        }
+        .date-text{
+            padding: 10px;
+            text-align: start;
+        }
+    }
+    
+    &.odd {
+      margin-left: 6rem;
+    }
+    &:hover{
+        transform: scale(1.05);
+        background-color: #ded0e63c;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
