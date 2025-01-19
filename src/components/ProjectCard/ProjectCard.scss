@@ -1,0 +1,50 @@
+.card{
+    border-radius: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 25rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    .card-title{
+        font-family: monospace;
+        font-size: 20px;
+        text-align: center;
+        transition: transform 0.3s ease, color 0.3s ease;
+        margin-bottom: 10px;
+    }
+    .card-text{
+        font-family: monospace;
+        font-size: 15px;
+    }
+    &:hover {
+        transform: scale(1.05);
+        background-color: #ded0e63c;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        .card-title{
+            transform: scale(1.5)
+        }
+    }
+
+    .technologies{
+        img{
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            padding: 10px;
+            height: 50px;
+            width: 50px;
+            &:hover{
+                transform: scale(1.5)
+            }
+        }
+        
+    }
+    .project-links{
+        img{
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            height: 50px;
+            width: 50px;
+            padding: 10px;
+            &:hover{
+                transform: scale(1.5)
+            }
+        }
+    }
+}
