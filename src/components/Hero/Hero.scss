@@ -1,6 +1,6 @@
 .hero{
     height: calc(100vh - 100px);
-    background: linear-gradient(180deg,#735CDD, #240339);
+    background: #000000;
 
     .wrapper{
         max-width: 1366px;
@@ -17,21 +17,23 @@
 
             h2{
                 font-size: 30px;
-                color: rgb(106, 41, 112);
+                color: rgb(115, 10, 125);
                 letter-spacing: 10px;
             }
 
             h1{
                 font-size: 88px;
+                z-index: 2;
             }
 
             .buttons{
+                z-index: 2;
                 button{
                     padding: 20px;
-                    border: 1px solid rgb(0, 0, 0);
+                    border: 1px solid rgb(255, 255, 255);
                     border-radius: 10px;
                     background-color: transparent;
-                    color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
                     margin-right: 20px;
                     cursor: pointer;
                     font-weight: 300;
@@ -39,14 +41,15 @@
             }
             .resume-btn{ 
                 padding: 19px;
-                border: 1px solid rgb(0, 0, 0);
+                border: 1px solid rgb(255, 255, 255);
                 border-radius: 10px;
                 background-color: transparent;
-                color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
                 margin-right: 20px;
                 cursor: pointer;
                 font-weight: 300;
                 font-size: 14px;
+                z-index: 2;
             }
             img{
                 width: 50px;
@@ -58,7 +61,7 @@
         font-size: 50vh;
         bottom: -10px;
         white-space: nowrap;
-        color: #9b97be2f;
+        color: rgba(115, 10, 125, 0.578);
         width: 50%;
         font-weight: bold;
         pointer-events: none;

@@ -1,6 +1,6 @@
 .navbar {
     height: 100px;
-    background-color: #735CDD;
+    background-color: #000000;
   
     .wrapper {
       max-width: 1366px;
@@ -12,7 +12,8 @@
  
       span {
         font-weight: bold;
-        color: #000;
+        color: white;
+        padding-left: 5rem;
       }
   
       .social {
