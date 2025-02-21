@@ -5,14 +5,13 @@
     display: grid;
     place-items: center;
     overflow: hidden;
-    background: #000000;
 
     .container {
         h1 {
             text-align: center;
             margin: 0 0 5rem 28rem;
             font-size: 50px;
-            font-family: monospace;
+            font-family:"Big Shoulders Display", sans-serif;
             white-space: nowrap;
             overflow: hidden;
             border-right: 2px solid #333;
@@ -76,7 +75,7 @@
         font-size: 30vh;
         bottom: -10px;
         white-space: nowrap;
-        color: #9b97be2f;
+        color: #dff11f79;
         width: 50%;
         font-weight: bold;
         pointer-events: none;

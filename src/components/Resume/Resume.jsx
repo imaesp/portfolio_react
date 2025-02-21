@@ -34,7 +34,7 @@ function Resume() {
             Title={item.Title}
             SubTitle={item.SubTitle}
             Date={item.Date}
-            className={index % 2 === 0 ? 'even' : 'odd'}
+            className="bullet-point"
           />
         ))}
       </div>

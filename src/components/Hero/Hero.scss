@@ -1,6 +1,5 @@
 .hero{
     height: calc(100vh - 100px);
-    background: #000000;
 
     .wrapper{
         max-width: 1366px;
@@ -17,7 +16,7 @@
 
             h2{
                 font-size: 30px;
-                color: rgb(115, 10, 125);
+                color: #e0f11f;
                 letter-spacing: 10px;
             }
 
@@ -61,7 +60,7 @@
         font-size: 50vh;
         bottom: -10px;
         white-space: nowrap;
-        color: rgba(115, 10, 125, 0.578);
+        color: #dff11f79;
         width: 50%;
         font-weight: bold;
         pointer-events: none;
