@@ -5,22 +5,18 @@
     justify-content: center;
     gap: 3rem;
     
-    .resume-image-container{
+    .separator{
         align-self: center;
         height: 90vh;
-        align-content: center;
-        img{
-            height: auto;
-            width: 38rem;
-        }
-        border: 1px solid #e0f11f;
-        border-radius: 25px;
+        border: 1px solid #ffffff;
     }
     .bullet-list{
         align-content: center;
         font-family:"Big Shoulders Display", sans-serif;
-        font-size: 20px;
-        
+        font-size: 20px;  
+    }
+    .bullet-point-display{
+        align-content: center;
     }
 }
 
