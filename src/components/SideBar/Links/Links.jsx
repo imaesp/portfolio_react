@@ -29,7 +29,7 @@ const itemVariants = {
 const items = [
   "Home",
   "About",
-  "Resume",
+  "Experience",
   "Projects",
   "Contact",
 ];
